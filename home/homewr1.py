@@ -19,7 +19,7 @@ class Hero:
 
 
 hero1 = Hero(name='Alexsey', nickname='Alex', hp=100, damage=50)
-hero2 = Hero(name='Jastin', nickname='Jo', hp=100, damage=70)
+hero2 = Hero(name='Jonnar', nickname='Joni', hp=100, damage=30)
 hero3 = Hero(name='Lukas', nickname='Luk', hp=100, damage=40)
 hero4 = Hero(name='Bobi', nickname='Bob', hp=100, damage=60)
 
