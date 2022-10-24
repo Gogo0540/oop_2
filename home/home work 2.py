@@ -16,7 +16,6 @@ class Air(Hero):
         pass
 
 
-
 class Earthly(Hero):
     legs = 2
 
@@ -32,7 +31,6 @@ class Earthly(Hero):
         pass
 
 
-
 class Space(Hero):
     arms = 8
 
@@ -46,6 +44,7 @@ class Space(Hero):
 
     def __Gen_x(self):
         pass
+
 
 hero1 = Air(name='Alexsey', nickname='Alex', hp=100, damage=50)
 hero2 = Earthly(name='Jonnar', nickname='Joni', hp=100, damage=30)
