@@ -1,12 +1,9 @@
 
 def get_list() -> list:
-    return list(range(0, 1_000, 2))
+    return list(range(0, 1000, 2))
 
 
 class Solution:
-
-    def __init__(self):
-        pass
 
     def find_target(self, lst, target):
         if target not in lst:
@@ -26,12 +23,4 @@ class Solution:
 lst = get_list()
 solution = Solution()
 print(solution.find_target(lst, 100))
-
-
-
-
-
-
-
-
 
